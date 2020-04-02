@@ -17,7 +17,7 @@ public class PersonService {
 	//insert a new person
 	
 	private final PersonDao personDao;
-	
+	//autowire annotation
 	@Autowired
 	public PersonService(@Qualifier("postgres")PersonDao personDao) {
 		this.personDao = personDao;
