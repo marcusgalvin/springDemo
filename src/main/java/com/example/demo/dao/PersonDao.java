@@ -6,6 +6,7 @@ import java.util.UUID;
 
 import com.example.demo.model.Person;
 
+//person interface
 public interface PersonDao {
 	
 	//insert person to mach db
