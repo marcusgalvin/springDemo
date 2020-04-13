@@ -21,6 +21,8 @@ public interface PersonDao {
 	List<Person> selectAllPeople();
 	
 	Optional<Person> selectPersonById(UUID id);
+
+	int i = 0;
 	
 	int deleteById(UUID id);
 	
