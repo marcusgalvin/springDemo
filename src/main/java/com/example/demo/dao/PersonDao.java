@@ -22,7 +22,7 @@ public interface PersonDao {
 	
 	Optional<Person> selectPersonById(UUID id);
 
-	int i = 0;
+	int i = 10;
 	
 	int deleteById(UUID id);
 	
